@@ -5,24 +5,46 @@ Example creating a modern TypeScript/JavaScript library
 
 ## TypeScript
 
-### Example Typescript 5.x Library
+### 1) TypeScript Tooling in 5 minutes
+
+Tutorial can be found at  
+https://www.typescriptlang.org/docs/handbook/typescript-tooling-in-5-minutes.html
+
+
+Installing TypeScript
+```bat
+npm install -g typescript
+```
+
+TypeScript compiler:
+```bat
+tsc greeter.ts
+```
+
+### 2) Example Typescript 5.x Library
 
 Simple starter library updated in 2023.
 
 Tutorial can be found at
 [https://www.tsmean.com/articles/how-to-write-a-typescript-library/](https://www.tsmean.com/articles/how-to-write-a-typescript-library/).
 
+Repository  
+https://github.com/bersling/typescript-library-starter
+
+Homepage  
+https://www.npmjs.com/package/hwrld
+
 The *module* compiler option
 - `commonjs`: run seamlessly with most current node.js applications
 - `es2015`: building a library for the browser
 
-You can write a test like this:
+You can write a test like this:  
 https://www.tsmean.com/articles/how-to-write-a-typescript-library/unit-testing/
 
-How to set up a local consumer without publishing to npm
+How to set up a local consumer without publishing to npm  
 https://www.tsmean.com/articles/how-to-write-a-typescript-library/local-consumer/
 
-How to make your library available as a system command
+How to make your library available as a system command  
 https://www.tsmean.com/articles/how-to-write-a-typescript-library/global-installation/
 
 #### Publish to npm
