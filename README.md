@@ -73,3 +73,13 @@ Tutorial can be found at
 Repository  
 https://github.com/heroku-examples/node-grunt
 
+#### Install Grunt and necessary plugins
+
+```bat
+npm init
+npm install grunt grunt-cli
+npm install --save-exact grunt-contrib-uglify
+npm install express --save
+npm run build
+npm run start
+```
