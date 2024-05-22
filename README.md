@@ -60,3 +60,16 @@ npm install --save hwrld
 ```
 
  For subsequent releases, use the semvar principle. When you make a patch / bugfix to your library, you can run `npm version patch`, for new features `run npm version minor` and on breaking changes of your api run `npm version major``.
+
+## Apps
+
+### Node.js Apps with Grunt
+
+ Example of grunt with a node.js app.
+
+Tutorial can be found at
+[https://devcenter.heroku.com/articles/node-with-grunt](https://devcenter.heroku.com/articles/node-with-grunt).
+
+Repository  
+https://github.com/heroku-examples/node-grunt
+
